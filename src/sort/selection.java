@@ -1,7 +1,7 @@
 package sort;
 
 public class selection {
-	public static void selection(int a[])
+	public static void selectionSort(int a[])
     {
         int n = a.length;
 
