@@ -17,5 +17,13 @@ public class main {
         int[] arr3 = Arrays.copyOf(data, data.length);
         bubble.bubbleSort(arr3);
         System.out.println("Bubble Sort: " + Arrays.toString(arr3));
+        // quick Sort
+        int[] arr4 = Arrays.copyOf(data, data.length);
+        quick.quickSort(arr4, 0, arr4.length - 1);
+        System.out.println("Quick Sort: " + Arrays.toString(arr4));
+        // merge Sort
+        int[] arr5 = Arrays.copyOf(data, data.length);
+        merge.mergeSort(arr5, 0, arr5.length - 1);
+        System.out.println("Merge Sort: " + Arrays.toString(arr5));
 }
 }
